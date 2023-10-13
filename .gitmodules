@@ -1,3 +1,4 @@
 [submodule "logstash-output-kusto"]
 	path = logstash-output-kusto
 	url = https://github.com/Azure/logstash-output-kusto
+	branch = master
