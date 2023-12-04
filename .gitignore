@@ -1,0 +1,61 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+
+# this is a GEM project
+Gemfile.lock
+
+# VSCode stuff
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vscode-server/*
+.ssh/*
+#Devcontainer 
+*.devcontainer/*
+Jars.lock
+.mvn/*
+
+#logstash conf
+*.conf
+
+#IDEA
+.idea
+.idea/*
+
+#Jar files and generated files
+**/*.jar
+**/*_jars.rb
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+.vscode/settings.json
+gradle/wrapper/gradle-wrapper.properties
+.vscode/settings.json
+.vscode/settings.json
+rspec.xml
+e2e/output_file.txt
