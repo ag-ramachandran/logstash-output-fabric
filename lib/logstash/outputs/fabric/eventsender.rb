@@ -4,7 +4,7 @@ require "logstash/outputs/fabricconfiguration"
 require "logstash/outputs/eventshandler"
 
 module LogStash; module Outputs; class MicrosoftFabricInternal
-class EventsSender < EventsHandler
+class EventsSender 
     @thread_batch_map
 
     def initialize(fabricconfiguration)
